@@ -1,0 +1,13 @@
+{
+  "name": "family-tree",
+  "version": "1.0.0",
+  "description": "Family tree using PUG",
+  "main": "index.js",
+  "author": "Prakhar Srivastava",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  }
+}

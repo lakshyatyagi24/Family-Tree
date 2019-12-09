@@ -1,0 +1,25 @@
+doctype HTML
+html
+	head
+		- const title=memberName||'Meet my Family'
+		title= title
+		link(rel='stylesheet', type='text/css', href='./index.css')
+		link(href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet")
+
+	body
+		if memberName
+			button.back(onclick='window.history.back()') <&nbsp;Back
+			h1.hero= memberName
+			case memberName
+				when 'ethel'
+					include ./ethel
+				when 'harold'
+					include ./harold
+				when 'paul'
+					include ./paul
+				when 'rich'
+					include ./rich
+		else
+			h1.hero Meet my Family
+			p.text Hello my name is Jordan
+		include ./links

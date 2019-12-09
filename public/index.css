@@ -1,0 +1,36 @@
+*{
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+}
+a.link{
+	color: blue;
+	background: aliceblue;
+	padding: .25em 1em;
+	font-size: medium;
+	text-align: center;
+	margin: 0 3em;
+	text-decoration: none;
+	border-radius: 4px;
+	font-family: sans-serif;
+}
+h1.hero{
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 300%;
+}
+p.text{
+	text-align: justify;
+	font-family: monospace;
+	font-size: 16pt;
+}
+button.back{
+	border-radius: 100%;
+    text-align: center;
+	box-shadow: 2px 3px 6px 2px #0000003d;
+	font-size: 8pt;
+	float: left;
+	height: 5em;
+    width: 5em;
+	padding: 2.1em 0;
+	font-family: sans-serif;
+}
